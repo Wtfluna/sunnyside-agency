@@ -1,18 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap");
 header {
   background-image: url("../images/photos/header.jpg");
   background-size: cover;
   height: 800px;
-  width: 1440px;
   color: white;
 }
 header a {
   text-decoration: none;
   color: white;
 }
+header .logo {
+  font-family: "Barlow", sans-serif;
+}
 
 body {
-  max-width: 1440px;
+  width: 1440px;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -35,13 +37,14 @@ body {
 }
 .box h1 {
   text-align: left;
+  font-size: 40px;
 }
 .box p {
   font-family: "Barlow", sans-serif;
   text-align: left;
 }
 .box article {
-  padding: 50px;
+  padding: 140px;
 }
 
 .graphicdesign {
