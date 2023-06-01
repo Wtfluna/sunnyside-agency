@@ -1,0 +1,44 @@
+body {
+    max-width: 1440px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 600px);
+}
+
+.box {
+    background-color: green;
+}
+
+.graphicdesign {
+    background-image: url('../images/photos/graphic-design.jpg');
+}
+
+.photography {
+    background-image: url('../images/photos/photography.jpg');
+}
+
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1 / -1;
+
+    h3 {
+        grid-column: 1 / -1;
+    }
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: 1 / -1;
+
+    img {
+        width: 100px;
+    }
+}
