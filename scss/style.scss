@@ -3,7 +3,8 @@
 header {
     background-image: url('../images/photos/header.jpg');
     background-size: cover;
-    height: max-content;
+    height: 800px;
+    width: 1440px;
     color: white;
 
     a {
@@ -30,7 +31,7 @@ body {
 
 .box {
     display: grid;
-    background-color: hsl(8, 63%, 87%);
+    background-color: hsl(15, 44%, 96%);
     place-items: center;
     width: 100%;
     height: 100%;
@@ -51,16 +52,22 @@ body {
 
 }
 
-
-
 .graphicdesign {
     background-image: url('../images/photos/graphic-design.jpg');
     color: hsl(167, 40%, 24%);
+
+    article {
+        align-self: end;
+    }
 }
 
 .photography {
     background-image: url('../images/photos/photography.jpg');
     color: hsl(198, 62%, 26%);
+
+    article {
+        align-self: end;
+    }
 }
 
 .testimonial {
@@ -71,6 +78,8 @@ body {
 
     h3 {
         grid-column: 1 / -1;
+        font-family: 'Fraunces', serif;
+
     }
 }
 
